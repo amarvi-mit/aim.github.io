@@ -20,6 +20,7 @@ body {
     animation-name: fadein;
     animation-duration: 0.5s;
     font-weight: 400;
+    font-size: 1em;
 }
 
 .contribution-note {
@@ -31,6 +32,20 @@ body {
     color: var(--acc);
     font-weight: 700;
     font-family: 'neue-haas-grotesk-text';
+}
+
+.section-heading {
+    font-family: 'neue-haas-grotesk-text', sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    margin-top: 4vh;
+    margin-bottom: 0.25vh;
+    color: var(--acc);
+    text-transform: uppercase;
+}
+
+.first-section {
+    margin-top: 0;
 }
 
 table {
